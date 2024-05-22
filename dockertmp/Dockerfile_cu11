@@ -1,0 +1,21 @@
+FROM pytorch/pytorch:1.9.1-cuda11.1-cudnn8-devel
+
+ENV http_proxy=http://192.168.16.5:3128
+ENV https_proxy=http://192.168.16.5:3128
+
+RUN PIP_INSTALL="python3 -m pip install --no-cache-dir -i https://pypi.mirrors.ustc.edu.cn/simple" && \
+    $PIP_INSTALL transformers==4.9.1 \
+    nltk \
+    pandas \
+    tqdm \
+#    csv \
+#    re \
+    sklearn \
+    torchtext==0.11.0 \
+    torchvision==0.11.1 \
+    einops \
+#    functools \
+#    itertools \
+    gensim \
+    pillow \
+    opencv-python-headless cython
