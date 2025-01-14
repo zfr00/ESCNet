@@ -1,6 +1,5 @@
 ## Docker
 Our code runtime environment is created by docker and we provide you with two dockerfiles located at . /dockertmp, where you can build the image from scratch. 
-We'll follow up with a full version of the image at dockerhub.
 
 ## Dataset
 Due to space limitations of anonymous links, we show part of our training data and validation data, the full and the test data will be open sourced later on.
