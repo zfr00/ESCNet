@@ -25,7 +25,7 @@ data/
         └── document_real/
 ```
 
-For the full dataset, please contact this email address zfr888@mail.ustc.deu.cn
+The full dataset is linked at https://drive.google.com/drive/folders/1zCd3rgUvQ3i1Gt6_d8yvefUNwKR7sdAE?usp=drive_link
 
 ## Crawler Code
 It would be an honor if our scripts for building datasets could inspire readers to repurpose them for making datasets in languages other than Chinese. Due to space and time constraints, we have shared part of the crawler script for you in ./crawler/, where 'fake_excel' contains the intermediate data for our crawled dataset.'url_list' are some of the website links used in crawling the data. Different scripts are labeled with the corresponding websites, such as 'QQ', 'mingcha'. 
